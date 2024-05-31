@@ -1,0 +1,755 @@
+[
+    {
+        "status": [
+            {
+                "skill": "在游戏开始时，所有玩家都被困在雾海之中。在远洋之前雾海不会解除。雾海之中，只有邪恶阵营全部死亡，邪恶阵营才会落败。",
+                "name": "雾海"
+            },
+            {
+                "skill": "每个白天，在开始提名后，当天，说书人会因大雾弥漫而不再接受拜访，小镇的船坞也不再开放，雾气过浓也不再适合出海。",
+                "name": "雾笼噩梦"
+            },
+            {
+                "skill": "每个白天，任意玩家都可以公开声明自己是广场诗人且乞讨，即使他不是。当天，每名除他以外的存活的玩家都可以施舍该玩家一枚金币。",
+                "name": "乞讨"
+            },
+            {
+                "skill": "每个白天，任意玩家都可以公开声明自己是公爵且设宴，即使他不是。每名除他以外的存活的玩家都可以声明自己要赴宴：公爵从之中选择当晚赴宴的玩家。",
+                "name": "设宴"
+            }
+        ],
+        "name": "雾海同行",
+        "author": "鸭镇",
+        "state": [
+            {
+                "stateName": "雾海",
+                "stateDescription": "在游戏开始时，所有玩家都被困在雾海之中。在远洋之前雾海不会解除。雾海之中，只有邪恶阵营全部死亡，邪恶阵营才会落败。"
+            },
+            {
+                "stateName": "雾笼噩梦",
+                "stateDescription": "每个白天，在开始提名后，当天，说书人会因大雾弥漫而不再接受拜访，小镇的船坞也不再开放，雾气过浓也不再适合出海。"
+            },
+            {
+                "stateName": "乞讨",
+                "stateDescription": "每个白天，任意玩家都可以公开声明自己是广场诗人且乞讨，即使他不是。当天，每名除他以外的存活的玩家都可以施舍该玩家一枚金币。"
+            },
+            {
+                "stateName": "设宴",
+                "stateDescription": "每个白天，任意玩家都可以公开声明自己是公爵且设宴，即使他不是。每名除他以外的存活的玩家都可以声明自己要赴宴：公爵从之中选择当晚赴宴的玩家。"
+            }
+        ],
+        "additional": [
+            {
+                "剧本介绍": "被迷雾笼罩的大海，总会有许多海员前去冒险。传说，只要穿过迷雾之海，就可以看见新的土地，那边有数不尽的财富。<br>而在这滨海的城镇，对着死寂的大海，无数勇敢的水手都想会会那传说的海妖。他们的勇气被人们谱写成赞歌，大家都在期待下一个明天跟湛蓝的大海。但鸦声过后，雾海之中却飘荡着怪叫声......<br>这里被腐朽的贵族、外海的强盗、奢靡的名媛所控制，但比迷雾更可怕的，是他们邪恶的内心。"
+            }
+        ],
+        "logo": "https://oss.gstonegames.com/data_file/clocktower/upload/1689611944_197011_8300.png",
+        "id": "_meta",
+        "description": ""
+    },
+    {
+        "ability": "在你的首个夜晚，你会得知两个善良角色：其中只有一个在场。在第三个白天及之后，你可以拜访说书人赎回你的大船。",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/upload/1689611968_197011_1614.png",
+        "edition": "custom",
+        "flavor": "各位能够宽限些时间吗？我可以先把船抵押给你们。",
+        "id": "20774_8365",
+        "firstNightReminder": "唤醒落魄船长。向他展示两个善良角色的标记，其中只有一个在场角色。为在场角色的玩家放置“债主”标记。",
+        "otherNightReminder": "",
+        "name": "落魄船长",
+        "otherNight": 0,
+        "setup": 0,
+        "reminders": [
+            "债主",
+            "大船"
+        ],
+        "remindersGlobal": [],
+        "team": "townsfolk",
+        "firstNight": 16
+    },
+    {
+        "ability": "在你的首个夜晚，你会得知两名玩家。你得知的玩家之中会有一名是善良的。每当你得知的玩家死亡，你会在当晚得知另一名玩家。",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/upload/1689611979_197011_5007.png",
+        "edition": "custom",
+        "flavor": "灯塔是大海的眼睛，是指引船回归的指针。",
+        "id": "20774_8366",
+        "firstNightReminder": "唤醒灯塔看守员。指向两名玩家。为其中善良玩家放置“照亮”标记，为其中邪恶玩家放置“未照亮”标记。",
+        "otherNightReminder": "如果灯塔看守员得知的玩家死亡，唤醒灯塔看守员，指向另一名玩家，按照阵营为他放置“照亮”或“未照亮”标记。",
+        "name": "灯塔看守员",
+        "otherNight": 19,
+        "setup": 0,
+        "reminders": [
+            "照亮",
+            "未照亮"
+        ],
+        "remindersGlobal": [],
+        "team": "townsfolk",
+        "firstNight": 17
+    },
+    {
+        "ability": "在你的首个夜晚，你会得知外来者与爪牙之间的最近距离。［+1外来者］",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/upload/1689611985_197011_8257.png",
+        "edition": "custom",
+        "flavor": "人口统计局对奴隶的统计是很严格的，请大人配合。",
+        "id": "20774_8367",
+        "firstNightReminder": "唤醒殖民主义者，向他展示代表外来者与爪牙之间最近的距离的数字的手势。",
+        "otherNightReminder": "",
+        "name": "殖民主义者",
+        "otherNight": 0,
+        "setup": 1,
+        "reminders": [],
+        "remindersGlobal": [],
+        "team": "townsfolk",
+        "firstNight": 18
+    },
+    {
+        "ability": "每个夜晚，你要选择除你以外的一名玩家：你得知离他最近的爪牙角色。会有一名外来者被你的能力当作爪牙，除非他已死亡。",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/upload/1689611996_197011_7405.png",
+        "edition": "custom",
+        "flavor": "你是哪个船的水手，本大人怎么没见过你？",
+        "id": "20774_8368",
+        "firstNightReminder": "为一名外来者放置“走私犯”标记。唤醒总督，让他指向一名玩家，向他展示离该玩家最近的爪牙的角色标记。",
+        "otherNightReminder": "如果带有“走私犯”的玩家死亡，移除标记。唤醒总督，让他指向一名玩家，向他展示离该玩家最近的爪牙的角色标记。",
+        "name": "总督",
+        "otherNight": 20,
+        "setup": 0,
+        "reminders": [
+            "走私犯"
+        ],
+        "remindersGlobal": [],
+        "team": "townsfolk",
+        "firstNight": 19
+    },
+    {
+        "ability": "每个夜晚*，你要选择两名玩家：你将前者的一枚金币转交给后者。如果其中一名玩家死于今天，你得知他的角色类型。",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/upload/1689612011_197011_3029.png",
+        "edition": "custom",
+        "flavor": "这批烟草可是海兵缴获海盗的，快把它搬去总督大人府上！",
+        "id": "20774_8369",
+        "firstNightReminder": "",
+        "otherNightReminder": "唤醒码头工人。让他依次指向两名玩家，将前者的一枚金币转交给后者。如果选到了死于今天的玩家，向码头工人展示他的角色类型。",
+        "name": "码头工人",
+        "otherNight": 21,
+        "setup": 0,
+        "reminders": [
+            "死于今天"
+        ],
+        "remindersGlobal": [],
+        "team": "townsfolk",
+        "firstNight": 0
+    },
+    {
+        "ability": "每个夜晚*，你要选择一名玩家和一个角色：他们获得一枚金币。如果他们是同一玩家，则改为他会变成另一个角色，你会得知该角色。",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/upload/1689612018_197011_6566.png",
+        "edition": "custom",
+        "flavor": "同业工会会平等的对待所有商人，海上贸易是靠商船堆起来的。",
+        "id": "20774_8370",
+        "firstNightReminder": "",
+        "otherNightReminder": "唤醒商会会长，让他选择一名玩家和一个角色。给他们各一枚金币，如果他们是同一玩家，向商会会长展示一个新的角色标记。然后让他重新入睡。唤醒他的目标玩家。向他展示“你是”提示卡和他的新的角色标记。",
+        "name": "商会会长",
+        "otherNight": 16,
+        "setup": 0,
+        "reminders": [],
+        "remindersGlobal": [],
+        "team": "townsfolk",
+        "firstNight": 0
+    },
+    {
+        "ability": "每个白天，你可以公开乞讨。每个夜晚*，你会得知当天施舍你的玩家以及死亡的玩家之中有多少个角色类型。",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/upload/1689612036_197011_2281.png",
+        "edition": "custom",
+        "flavor": "诗人只需要乐器和理想，便可以踏足远方，广场的唱和只是短暂的休息。",
+        "id": "20774_8371",
+        "firstNightReminder": "",
+        "otherNightReminder": "唤醒广场诗人。向他展示施舍他的玩家以及死亡的玩家的角色类型的数量的手势。",
+        "name": "广场诗人",
+        "otherNight": 22,
+        "setup": 0,
+        "reminders": [
+            "施舍"
+        ],
+        "remindersGlobal": [],
+        "team": "townsfolk",
+        "firstNight": 0
+    },
+    {
+        "ability": "每个白天，你可以公开声明今晚设宴。在当晚你获得一枚金币，且得知赴宴的玩家之中是否有邪恶玩家。其他赴宴的玩家可能会获得一枚金币，且之一会醉酒到下个黄昏。",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/upload/1689612045_197011_8140.png",
+        "edition": "custom",
+        "flavor": "来来来，各位名流们，这场宴会欢迎你们的到来。",
+        "id": "20774_8372",
+        "firstNightReminder": "",
+        "otherNightReminder": "为公爵增加一枚金币。唤醒公爵，向他点头表示赴宴的玩家中有邪恶玩家，摇头表示否。为所有赴宴的玩家增加或不增加一枚金币，并且为其中一名玩家放置“醉酒”标记。",
+        "name": "公爵",
+        "otherNight": 17,
+        "setup": 0,
+        "reminders": [
+            "赴宴",
+            "醉酒"
+        ],
+        "remindersGlobal": [],
+        "team": "townsfolk",
+        "firstNight": 0
+    },
+    {
+        "ability": "每个白天，如果你“疯狂”地证明一件与自己无关的事情是正确的，在当晚你会得知一条信息。如果这件事情是错误的，你会得知错误信息。",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/upload/1689612050_197011_7673.png",
+        "edition": "custom",
+        "flavor": "物理和数学，哪个是我下一个要思考的方向？",
+        "id": "20774_8373",
+        "firstNightReminder": "",
+        "otherNightReminder": "如果白天求学者足够疯狂，唤醒他并告诉他一条对应的信息。",
+        "name": "求学者",
+        "otherNight": 23,
+        "setup": 0,
+        "reminders": [
+            "正确疯狂",
+            "错误疯狂"
+        ],
+        "remindersGlobal": [],
+        "team": "townsfolk",
+        "firstNight": 0
+    },
+    {
+        "ability": "在夜晚时*，如果有邪恶角色的能力选择了你，你会得知该角色。在你扬帆的当天，除塞壬以外的邪恶玩家的负面能力对你无效。［拥有小船］",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/upload/1689612062_197011_7159.png",
+        "edition": "custom",
+        "flavor": "乘风破浪，大海是我的归宿。",
+        "id": "20774_8374",
+        "firstNightReminder": "",
+        "otherNightReminder": "如果有邪恶角色选择了航海家，唤醒他并向他展示该邪恶角色的标记。",
+        "name": "航海家",
+        "otherNight": 18,
+        "setup": 1,
+        "reminders": [
+            "出海"
+        ],
+        "remindersGlobal": [],
+        "team": "townsfolk",
+        "firstNight": 0
+    },
+    {
+        "ability": "当有玩家被处决后，你获得一枚金币。如果你死亡，在当晚你会被唤醒，然后选择是否让一名外来者死亡。",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/upload/1689612071_197011_4796.png",
+        "edition": "custom",
+        "flavor": "海盗横行，奴隶遍地，只有手里有武器才能让人安心。",
+        "id": "20774_8375",
+        "firstNightReminder": "",
+        "otherNightReminder": "如果武器匠死亡，你唤醒他，让他选择是否让一名外来者死亡。",
+        "name": "武器匠",
+        "otherNight": 15,
+        "setup": 0,
+        "reminders": [
+            "死亡"
+        ],
+        "remindersGlobal": [],
+        "team": "townsfolk",
+        "firstNight": 0
+    },
+    {
+        "ability": "如果你提名的玩家被处决，在当晚与他邻近的善良玩家之一，邪恶玩家的负面能力对他无效。",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/upload/1689612078_197011_2397.png",
+        "edition": "custom",
+        "flavor": "这位先生已经被隔离，请其他镇民不要靠近这里。",
+        "id": "20774_8376",
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "name": "疫病颂者",
+        "otherNight": 0,
+        "setup": 0,
+        "reminders": [
+            "隔离"
+        ],
+        "remindersGlobal": [],
+        "team": "townsfolk",
+        "firstNight": 0
+    },
+    {
+        "ability": "当你得知你死亡时，你要选择三名存活的玩家：你分配给他们各一枚金币，在当晚你会得知其中是否有邪恶玩家。",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/upload/1689612086_197011_3335.png",
+        "edition": "custom",
+        "flavor": "主会宽恕世人，哪怕是在主死亡之后。",
+        "id": "20774_8377",
+        "firstNightReminder": "",
+        "otherNightReminder": "如果牧师在选择了玩家，唤醒他，并点头代表他们之中有邪恶玩家，否则摇头。",
+        "name": "牧师",
+        "otherNight": 24,
+        "setup": 0,
+        "reminders": [
+            "葬礼"
+        ],
+        "remindersGlobal": [],
+        "team": "townsfolk",
+        "firstNight": 0
+    },
+    {
+        "ability": "你不知道你是吹嘘海盗。你以为你是一个镇民角色，但你的能力会产生错误信息。当你的远洋提议通过后，你会是其中死亡的玩家。",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/upload/1689612094_197011_8930.png",
+        "edition": "custom",
+        "flavor": "迷雾之海外边？我去过，穿过风浪也不是一件特别难的事情。",
+        "id": "20774_8378",
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "name": "吹嘘海盗",
+        "otherNight": 0,
+        "setup": 1,
+        "reminders": [],
+        "remindersGlobal": [
+            "是吹嘘海盗"
+        ],
+        "team": "outsider",
+        "firstNight": 0
+    },
+    {
+        "ability": "一名镇民被海上义贼抢夺了角色，他自以为是海上义贼，且义贼留下了两枚金币给该镇民。你以为你是该镇民且拥有他的能力。如果你死亡时他存活，他找回自己的角色。",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/upload/1689612110_197011_646.png",
+        "edition": "custom",
+        "flavor": "敬爱的公爵，您的行头小人借走用一段时间，一点点心意请您收下。",
+        "id": "20774_8379",
+        "firstNightReminder": "为一个镇民角色放置“是义贼”标记，然后给海上义贼角色的玩家两枚金币。",
+        "otherNightReminder": "如果带有“是义贼”标记的玩家死亡，唤醒海上义贼，向他展示“你是”提示卡，并展示“是义贼”的玩家的角色标记。",
+        "name": "海上义贼",
+        "otherNight": 14,
+        "setup": 0,
+        "reminders": [
+            "是义贼"
+        ],
+        "remindersGlobal": [],
+        "team": "outsider",
+        "firstNight": 11
+    },
+    {
+        "ability": "每局游戏限一次，在夜晚时*，你可以花费四枚金币，选择除你以外的一名存活的玩家：如果你选中了镇民，他醉酒。如果你选中了恶魔，你变成邪恶的该恶魔且他死亡。",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/upload/1689612120_197011_8488.png",
+        "edition": "custom",
+        "flavor": "从大浪中飘来的生意，不囤积居奇一波，怎么对得起这一船性命。",
+        "id": "20774_8380",
+        "firstNightReminder": "",
+        "otherNightReminder": "唤醒投机商人，他要么摇头，要么选择一名玩家：消耗投机商人四枚金币，然后，如果那名玩家是镇民的，为那名玩家放置“醉酒”标记；如果那名玩家是恶魔，向投机商人展示代表邪恶的拇指向下手势，向他展示那名玩家的角色标记。让他重新入睡。为那名玩家放置“死亡”标记。",
+        "name": "投机商人",
+        "otherNight": 6,
+        "setup": 0,
+        "reminders": [
+            "醉酒",
+            "邪恶",
+            "死亡"
+        ],
+        "remindersGlobal": [],
+        "team": "outsider",
+        "firstNight": 0
+    },
+    {
+        "ability": "在雾海解除后，如果你的阵营获胜，则改为落败。首个死于处决的迷雾信徒会在当晚转变为邪恶阵营。",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/upload/1689612135_197011_3775.png",
+        "edition": "custom",
+        "flavor": "大家，在迷雾之中生活难道不好吗？",
+        "id": "20774_8381",
+        "firstNightReminder": "",
+        "otherNightReminder": "如果首个迷雾信徒死于处决，唤醒他并向他展示代表邪恶的拇指向下的手势。",
+        "name": "迷雾信徒",
+        "otherNight": 5,
+        "setup": 0,
+        "reminders": [
+            "沉溺"
+        ],
+        "remindersGlobal": [],
+        "team": "outsider",
+        "firstNight": 0
+    },
+    {
+        "ability": "在你的首个夜晚，你会得知一个在场的外来者角色以及与他邻近的镇民角色。每局游戏限一次，在白天时，你可以公开宣布“贱民，滚出这片土地”并选择一名玩家：如果他是你得知的角色，他被处决。［+1外来者］",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/upload/1689612147_197011_5858.png",
+        "edition": "custom",
+        "flavor": "你们这些贱民都是我从外海带回来的，是我手里的行货！",
+        "id": "20774_8382",
+        "firstNightReminder": "唤醒征服者，向他他展示一个外来者角色标记以及与他邻近的镇民角色标记。",
+        "otherNightReminder": "",
+        "name": "征服者",
+        "otherNight": 0,
+        "setup": 1,
+        "reminders": [
+            "贱民",
+            "失去能力"
+        ],
+        "remindersGlobal": [],
+        "team": "minion",
+        "firstNight": 14
+    },
+    {
+        "ability": "每个夜晚*，如果大于等于六名玩家存活，你可以花费一枚金币，选择一名玩家和一个角色：他变成该角色，但每局游戏仅能成功转化一次恶魔。如果下个黄昏或你失去能力时他存活，他变成之前的角色。",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/upload/1689612162_197011_8270.png",
+        "edition": "custom",
+        "flavor": "我这里有好东西，你来隔壁巷子，我给你看看。",
+        "id": "20774_8383",
+        "firstNightReminder": "",
+        "otherNightReminder": "唤醒黑市商人，他要么摇头，要么选择一名玩家和一个角色。消耗黑市商人一枚金币，为那名玩家放置“交易”标记，如果黑市商人选择了恶魔角色，还要放置“明晚死亡”标记，然后让黑市商人重新入睡。唤醒那名玩家，向他展示“你是”提示卡和他的新的角色标记。",
+        "name": "黑市商人",
+        "otherNight": 8,
+        "setup": 0,
+        "reminders": [
+            "交易",
+            "明晚死亡",
+            "失去能力"
+        ],
+        "remindersGlobal": [],
+        "team": "minion",
+        "firstNight": 0
+    },
+    {
+        "ability": "每个夜晚，你要选择一个恶魔角色：你会被当作该角色且获得该角色的能力直到下个黄昏。［-1恶魔，+1爪牙］",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/upload/1689612174_197011_4728.png",
+        "edition": "custom",
+        "flavor": "出海都是腐儒奸商出的馊主意，目的就是侵吞公款！",
+        "id": "20774_8384",
+        "firstNightReminder": "唤醒旧贵族，让他选择一个恶魔角色，向他展示“你是”提示卡和该恶魔角色标记。将他的角色标记替换为该恶魔角色标记，并放置“是旧贵族”标记。",
+        "otherNightReminder": "唤醒旧贵族，让他选择一个恶魔角色，向他展示“你是”提示卡和该恶魔角色标记。将他的角色标记替换为该恶魔角色标记，并放置“是旧贵族”标记。",
+        "name": "旧贵族",
+        "otherNight": 7,
+        "setup": 1,
+        "reminders": [
+            "是旧贵族"
+        ],
+        "remindersGlobal": [],
+        "team": "minion",
+        "firstNight": 12
+    },
+    {
+        "ability": "每个夜晚，你要选择一名玩家：他醉酒到下个黄昏。如果他持有金币，你偷取一枚。",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/upload/1689612190_197011_6360.png",
+        "edition": "custom",
+        "flavor": "这位船长，今天又来我们这间酒馆喝酒啦~",
+        "id": "20774_8385",
+        "firstNightReminder": "唤醒陪酒女郎，让他指向一名玩家，为那名玩家放置“醉酒”标记，如果该玩家持有金币，再偷取该玩家的一枚金币给陪酒女郎。",
+        "otherNightReminder": "唤醒陪酒女郎，让他指向一名玩家，为那名玩家放置“醉酒”标记，如果该玩家持有金币，再偷取该玩家的一枚金币给陪酒女郎。",
+        "name": "陪酒女郎",
+        "otherNight": 9,
+        "setup": 0,
+        "reminders": [
+            "醉酒"
+        ],
+        "remindersGlobal": [],
+        "team": "minion",
+        "firstNight": 13
+    },
+    {
+        "ability": "每个夜晚，你要选择一至三名玩家：你分配给他们合计三枚金币。在夜晚时*，所有被波塞冬分配到三枚及以上的玩家都会死亡。",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/upload/1689612201_197011_3395.png",
+        "edition": "custom",
+        "flavor": "",
+        "id": "20774_8386",
+        "firstNightReminder": "唤醒波塞冬，让他指向一至三名玩家，给那些玩家标记获得金币。",
+        "otherNightReminder": "唤醒波塞冬，让他指向一至三名玩家，给那些玩家标记获得金币。标记这些被分配到三枚以上的玩家死亡。",
+        "name": "波塞冬",
+        "otherNight": 10,
+        "setup": 0,
+        "reminders": [
+            "获得1枚",
+            "获得2枚",
+            "获得3枚",
+            "死亡"
+        ],
+        "remindersGlobal": [],
+        "team": "demon",
+        "firstNight": 15
+    },
+    {
+        "ability": "每个夜晚*，你会得知所有拥有船的玩家，然后你要选择一名玩家（或选择任意名拥有船的玩家）：他们死亡。拥有船的玩家的能力会产生错误信息。[+航海家]",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/upload/1689612220_197011_4193.png",
+        "edition": "custom",
+        "flavor": "",
+        "id": "20774_8387",
+        "firstNightReminder": "",
+        "otherNightReminder": "唤醒塞壬，指向所有拥有船的玩家。让他选择一名玩家，或选择任意名拥有船的玩家，为这些玩家放置“死亡”标记。",
+        "name": "塞壬",
+        "otherNight": 11,
+        "setup": 1,
+        "reminders": [
+            "得知",
+            "死亡"
+        ],
+        "remindersGlobal": [],
+        "team": "demon",
+        "firstNight": 0
+    },
+    {
+        "ability": "每个夜晚*，你要选择一名玩家:他死亡。每个角色类型首次扬帆的玩家和你都会在当晚得知斯库拉在场。如果这些玩家存活，即使你已死亡但保留能力。如果雾海解除时你已死亡，改为邪恶阵营获胜。",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/upload/1689612235_197011_5319.png",
+        "edition": "custom",
+        "flavor": "",
+        "id": "20774_8388",
+        "firstNightReminder": "",
+        "otherNightReminder": "唤醒斯库拉，让他指向一名玩家，为那名玩家放置“死亡”标记。如果一个类型首次有玩家扬帆，为那名玩家放置对应的“得知”标记。",
+        "name": "斯库拉",
+        "otherNight": 12,
+        "setup": 0,
+        "reminders": [
+            "死亡",
+            "镇民得知",
+            "外来者得知",
+            "爪牙得知",
+            "恶魔得知"
+        ],
+        "remindersGlobal": [],
+        "team": "demon",
+        "firstNight": 0
+    },
+    {
+        "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果大于等于五名玩家存活时你死亡，且没有存活的恶魔，会有一名爪牙变成海德拉。",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/upload/1689612250_197011_4088.png",
+        "edition": "custom",
+        "flavor": "",
+        "id": "20774_8389",
+        "firstNightReminder": "",
+        "otherNightReminder": "唤醒海德拉，让他指向一名玩家，为那名玩家放置“死亡”标记。",
+        "name": "海德拉",
+        "otherNight": 13,
+        "setup": 0,
+        "reminders": [
+            "死亡",
+            "再生"
+        ],
+        "remindersGlobal": [],
+        "team": "demon",
+        "firstNight": 0
+    },
+    {
+        "ability": "钱财与这个世界息息相关，多则富有，少则贫穷。",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/upload/1689612261_197011_7170.png",
+        "edition": "custom",
+        "flavor": "",
+        "id": "20774_8390",
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "name": "金币",
+        "otherNight": 0,
+        "setup": 0,
+        "reminders": [
+            "1枚",
+            "2枚",
+            "3枚",
+            "4枚",
+            "5枚",
+            "6枚",
+            "7枚",
+            "8枚",
+            "9枚",
+            "10枚+"
+        ],
+        "remindersGlobal": [],
+        "team": "fabled",
+        "firstNight": 0
+    },
+    {
+        "ability": "每名玩家都持有自己的金币。在第二个白天及之后，每名存活的玩家都可以拜访说书人以得知自己持有多少枚金币。醉酒的玩家可能会得知错误的金币数量。",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/upload/1689612277_197011_1691.png",
+        "edition": "custom",
+        "flavor": "",
+        "id": "20774_8391",
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "name": "私有制",
+        "otherNight": 0,
+        "setup": 0,
+        "reminders": [],
+        "remindersGlobal": [],
+        "team": "fabled",
+        "firstNight": 0
+    },
+    {
+        "ability": "每个白天限两次，如果一次提名计票之后该玩家即将被处决，提名玩家获得一枚金币，所有投票玩家各获得一枚金币。",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/upload/1689612291_197011_6640.png",
+        "edition": "custom",
+        "flavor": "",
+        "id": "20774_8392",
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "name": "雾魇恐惧",
+        "otherNight": 0,
+        "setup": 0,
+        "reminders": [
+            "票数相同"
+        ],
+        "remindersGlobal": [],
+        "team": "fabled",
+        "firstNight": 0
+    },
+    {
+        "ability": "在白天时，除旅行者以外的存活的玩家可以购买船，持有三枚金币可以购买小船，持有五枚金币可以购买大船。所有玩家都会得知谁拥有大船。",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/upload/1689612311_197011_1402.png",
+        "edition": "custom",
+        "flavor": "",
+        "id": "20774_8393",
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "name": "船坞",
+        "otherNight": 0,
+        "setup": 0,
+        "reminders": [
+            "小船",
+            "大船"
+        ],
+        "remindersGlobal": [],
+        "team": "fabled",
+        "firstNight": 0
+    },
+    {
+        "ability": "在白天时，拥有船的存活的玩家可以拜访说书人并花费一枚金币。如果一名玩家连续扬帆两天，他可以选择另一名玩家：他会得知该玩家的阵营。醉酒的玩家会得知错误信息。",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/upload/1689612327_197011_2849.png",
+        "edition": "custom",
+        "flavor": "",
+        "id": "20774_8394",
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "name": "扬帆",
+        "otherNight": 0,
+        "setup": 0,
+        "reminders": [
+            "扬帆"
+        ],
+        "remindersGlobal": [],
+        "team": "fabled",
+        "firstNight": 0
+    },
+    {
+        "ability": "在白天时，拥有大船的三名存活的玩家可以提议远洋，所有玩家要对这个提议投票。如果远洋提议的投票超过半数玩家，则提议通过。远洋中的三名玩家：一名会得知他们之中有多少名邪恶玩家，一名会得知错误信息，一名会死亡。",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/upload/1689612338_197011_5030.png",
+        "edition": "custom",
+        "flavor": "",
+        "id": "20774_8395",
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "name": "远洋",
+        "otherNight": 0,
+        "setup": 0,
+        "reminders": [
+            "死亡",
+            "正确",
+            "错误"
+        ],
+        "remindersGlobal": [],
+        "team": "fabled",
+        "firstNight": 0
+    },
+    {
+        "ability": "在游戏开始时，所有玩家都被困在雾海之中。在远洋之前雾海不会解除。雾海之中，只有邪恶阵营全部死亡，邪恶阵营才会落败。",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/upload/1689612352_197011_6968.png",
+        "edition": "custom",
+        "flavor": "",
+        "id": "20774_8396",
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "name": "雾海",
+        "otherNight": 0,
+        "setup": 0,
+        "reminders": [],
+        "remindersGlobal": [],
+        "team": "fabled",
+        "firstNight": 0
+    },
+    {
+        "ability": "每个白天，你可以公开宣布“神秘之物掀起海浪”，然后选择一名玩家：你向他索取两枚金币。当你得知你死亡时，你可以转交你索取的金币。",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/upload/1689612366_197011_8574.png",
+        "edition": "custom",
+        "flavor": "",
+        "id": "20774_8397",
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "name": "巨浪",
+        "otherNight": 0,
+        "setup": 0,
+        "reminders": [],
+        "remindersGlobal": [],
+        "team": "traveler",
+        "firstNight": 0
+    },
+    {
+        "ability": "每个夜晚*，会有一名玩家获得或失去一枚金币。他会得知自己被风吹。",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/upload/1689612377_197011_1822.png",
+        "edition": "custom",
+        "flavor": "",
+        "id": "20774_8398",
+        "firstNightReminder": "",
+        "otherNightReminder": "说书人选择唤醒一名玩家，向他展示“该角色能力对你生效”提示卡并展示飓风的角色标记，然后决定他获得或失去一枚金币。",
+        "name": "飓风",
+        "otherNight": 3,
+        "setup": 0,
+        "reminders": [
+            "被风吹"
+        ],
+        "remindersGlobal": [],
+        "team": "traveler",
+        "firstNight": 0
+    },
+    {
+        "ability": "每个白天，你可以公开发表一个独特的声明。如果该声明正确，在当晚你转变阵营。在雾海解除后你的阵营不再转变。[无初始信息]",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/upload/1689612385_197011_7107.png",
+        "edition": "custom",
+        "flavor": "",
+        "id": "20774_8399",
+        "firstNightReminder": "",
+        "otherNightReminder": "如果暴雨白天的声明正确，唤醒他并向他展示代表他的新的阵营的手势。",
+        "name": "暴雨",
+        "otherNight": 2,
+        "setup": 0,
+        "reminders": [
+            "声明正确"
+        ],
+        "remindersGlobal": [],
+        "team": "traveler",
+        "firstNight": 0
+    },
+    {
+        "ability": "每个夜晚*，你要选择除旅行者以外的三名玩家：他们会得知被你选中。如果明天他们相互提名，在处决之后，他们之中提名的玩家各获得一枚金币。",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/upload/1689612393_197011_9111.png",
+        "edition": "custom",
+        "flavor": "",
+        "id": "20774_8400",
+        "firstNightReminder": "",
+        "otherNightReminder": "让浓雾指向三名玩家，给他们标记“雾笼噩梦”，让浓雾重新入睡，然后分别唤醒这些玩家，向他们展示“该角色能力对你生效”提示卡并展示浓雾的角色标记。",
+        "name": "浓雾",
+        "otherNight": 4,
+        "setup": 0,
+        "reminders": [
+            "已选择"
+        ],
+        "remindersGlobal": [],
+        "team": "traveler",
+        "firstNight": 0
+    },
+    {
+        "ability": "在雾海之中，你不会被流放。在第三个白天之后，如果当天被处决玩家的金币大于等于五枚或拥有船，被你提名的玩家也一同被处决。",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/upload/1689612403_197011_6582.png",
+        "edition": "custom",
+        "flavor": "",
+        "id": "20774_8401",
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "name": "低气压",
+        "otherNight": 0,
+        "setup": 0,
+        "reminders": [
+            "被提名"
+        ],
+        "remindersGlobal": [],
+        "team": "traveler",
+        "firstNight": 0
+    },
+    {
+        "ability": "你同时拥有另一个旅行者角色能力，你以为你是那个角色。在夜晚时*，可能会有一名玩家因触礁不会被自身能力唤醒，且你死亡。",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/upload/1689612406_197011_5826.png",
+        "edition": "custom",
+        "flavor": "",
+        "id": "20774_8402",
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "name": "暗礁",
+        "otherNight": 0,
+        "setup": 1,
+        "reminders": [],
+        "remindersGlobal": [
+            "是暗礁",
+            "触礁"
+        ],
+        "team": "traveler",
+        "firstNight": 0
+    }
+]

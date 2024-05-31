@@ -1,0 +1,579 @@
+[
+    {
+        "status": [
+            {
+                "skill": "假面：当你存活时，如果你试图向其他玩家说明或暗示你的真实身份，你可能会被说书人处决。（假面是一个技能，只有前6个镇民牌具有。其他人无需遵守。说书人不会因假面技能而进行对邪恶阵营不利的处决。剧幕宣布前不能处决）",
+                "name": "假面"
+            },
+            {
+                "skill": "剧幕：在每个白天的公聊时间剩余几分钟时（说书人可以自行调整），说书人会宣布某件事。这样的公开宣布称之为“剧幕”。（镇民身份类型的剧目在每个白天仅能公布一个。每张牌的剧幕在游戏中仅能被公布一次。）",
+                "name": "剧幕"
+            }
+        ],
+        "name": "歌剧魅影-新",
+        "author": "泽度哥摧毁停车场",
+        "state": [
+            {
+                "stateName": "假面",
+                "stateDescription": "假面：当你存活时，如果你试图向其他玩家说明或暗示你的真实身份，你可能会被说书人处决。（假面是一个技能，只有前6个镇民牌具有。其他人无需遵守。说书人不会因假面技能而进行对邪恶阵营不利的处决。剧幕宣布前不能处决）"
+            },
+            {
+                "stateName": "剧幕",
+                "stateDescription": "剧幕：在每个白天的公聊时间剩余几分钟时（说书人可以自行调整），说书人会宣布某件事。这样的公开宣布称之为“剧幕”。（镇民身份类型的剧目在每个白天仅能公布一个。每张牌的剧幕在游戏中仅能被公布一次。）"
+            }
+        ],
+        "logo": "https://oss.gstonegames.com/data_file/clocktower/upload/1689521462_197011_5150.png",
+        "id": "_meta",
+        "description": ""
+    },
+    {
+        "ability": "假面。在你的首个夜晚，你得知两条相悖的信息。若两名其他玩家对其中的错误信息疯狂，今天说书人会宣布“匹诺曹的鼻子变长了”。你的剧幕被宣布后，每个夜晚，你选择一名其他玩家（与昨天不同），他当晚不会被恶魔杀害。",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/upload/1689521475_197011_2707.png",
+        "edition": "custom",
+        "flavor": "",
+        "id": "20724_8085",
+        "firstNightReminder": "匹诺曹得知2条相悖的信息,其中仅有1条是正确的。",
+        "otherNightReminder": "匹诺曹指向一名玩家，标记那名玩家为“木偶的守护”",
+        "name": "匹诺曹",
+        "otherNight": 2,
+        "setup": 0,
+        "reminders": [],
+        "remindersGlobal": [
+            "木偶守护"
+        ],
+        "team": "townsfolk",
+        "firstNight": 22
+    },
+    {
+        "ability": "假面。在你的首个夜晚，你得知一条信息。当两名其他玩家对你获得的信息疯狂时，今天说书人会宣布“梅林得到了预言”。你的剧幕被宣布的当晚你获得一条信息。",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/upload/1689521493_197011_1937.png",
+        "edition": "custom",
+        "flavor": "",
+        "id": "20724_8086",
+        "firstNightReminder": "告知梅林第一条信息。",
+        "otherNightReminder": "告知梅林第二条信息。",
+        "name": "梅林",
+        "otherNight": 14,
+        "setup": 0,
+        "reminders": [],
+        "remindersGlobal": [],
+        "team": "townsfolk",
+        "firstNight": 21
+    },
+    {
+        "ability": "假面。每个夜晚，选择一个数字。对于座位号是该数字的整数倍的存活玩家，你得知其中是否有邪恶阵营。当你对邪恶玩家投票后，下一个白天，说书人会宣布“帕米娜吹响了魔法笛子”。",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/upload/1689521508_197011_8998.png",
+        "edition": "custom",
+        "flavor": "",
+        "id": "20724_8087",
+        "firstNightReminder": "帕米娜选择一个数字。告知帕米娜他们中是否有邪恶玩家。",
+        "otherNightReminder": "帕米娜选择一个数字。告知帕米娜他们中是否有邪恶玩家。",
+        "name": "帕米娜",
+        "otherNight": 12,
+        "setup": 0,
+        "reminders": [],
+        "remindersGlobal": [],
+        "team": "townsfolk",
+        "firstNight": 17
+    },
+    {
+        "ability": "假面。白天，拜访说书人选择你的夜间行动顺位，当晚你得知一个与你行动顺位相邻的角色。如果你选择的恰好是最后一个行动，下一个白天，说书人会宣布“蝴蝶重逢在晴朗的一天”。你的剧幕被宣布的当晚你会得知两个相邻角色。",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/upload/1689521518_197011_296.png",
+        "edition": "custom",
+        "flavor": "",
+        "id": "20724_8088",
+        "firstNightReminder": "",
+        "otherNightReminder": "没有固定行动顺序，别忘了结算蝴蝶夫人信息。",
+        "name": "蝴蝶夫人",
+        "otherNight": 17,
+        "setup": 0,
+        "reminders": [],
+        "remindersGlobal": [],
+        "team": "townsfolk",
+        "firstNight": 0
+    },
+    {
+        "ability": "假面。白天，你可以拜访说书人猜测一名其他非旅玩家的角色。如果你猜测正确，说书人会宣布“一场假面舞会正在召开”。你的剧幕被宣布后，你不再具有假面。",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/upload/1689521534_197011_9277.png",
+        "edition": "custom",
+        "flavor": "",
+        "id": "20724_8089",
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "name": "假面绅士",
+        "otherNight": 0,
+        "setup": 0,
+        "reminders": [],
+        "remindersGlobal": [
+            "绅士礼仪"
+        ],
+        "team": "townsfolk",
+        "firstNight": 0
+    },
+    {
+        "ability": "假面。你拥有第一个死亡的善良角色的能力。若你触发他的剧幕，则改为宣布“玫瑰骑士找到了她的真爱”。你的剧幕被宣布后，你不再具有假面。",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/upload/1689521543_197011_4171.png",
+        "edition": "custom",
+        "flavor": "",
+        "id": "20724_8090",
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "name": "玫瑰骑士",
+        "otherNight": 0,
+        "setup": 0,
+        "reminders": [
+            "银玫瑰"
+        ],
+        "remindersGlobal": [],
+        "team": "townsfolk",
+        "firstNight": 0
+    },
+    {
+        "ability": "在你的首个夜晚，你会得知两个具有假面的在场镇民角色。",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/upload/1689521564_197011_4989.png",
+        "edition": "custom",
+        "flavor": "",
+        "id": "20724_8091",
+        "firstNightReminder": "告知化妆师两个具有假面技能的在场镇民角色。",
+        "otherNightReminder": "",
+        "name": "化妆师",
+        "otherNight": 0,
+        "setup": 0,
+        "reminders": [
+            "化妆"
+        ],
+        "remindersGlobal": [],
+        "team": "townsfolk",
+        "firstNight": 19
+    },
+    {
+        "ability": "每个夜晚*，你选择一名玩家，你得知他的剧幕是否已被公布，或得知他没有剧幕。",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/upload/1689521572_197011_7592.png",
+        "edition": "custom",
+        "flavor": "",
+        "id": "20724_8092",
+        "firstNightReminder": "",
+        "otherNightReminder": "报幕员指向一名玩家，报幕员得知没有剧幕，或剧幕未公布，或剧幕已公布。",
+        "name": "报幕员",
+        "otherNight": 13,
+        "setup": 0,
+        "reminders": [],
+        "remindersGlobal": [],
+        "team": "townsfolk",
+        "firstNight": 0
+    },
+    {
+        "ability": "在你的首个夜晚，你得知有多少名邪恶玩家与外来者相邻。",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/upload/1689521589_197011_3235.png",
+        "edition": "custom",
+        "flavor": "",
+        "id": "20724_8094",
+        "firstNightReminder": "灯光师得知有多少名邪恶玩家与外来者相邻。",
+        "otherNightReminder": "",
+        "name": "灯光师",
+        "otherNight": 0,
+        "setup": 0,
+        "reminders": [],
+        "remindersGlobal": [],
+        "team": "townsfolk",
+        "firstNight": 18
+    },
+    {
+        "ability": "在你的首个夜晚，你得知1个没有假面的镇民角色、1个外来者角色和1个爪牙角色，其中有2个在场。",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/upload/1689521607_197011_6016.png",
+        "edition": "custom",
+        "flavor": "",
+        "id": "20724_8095",
+        "firstNightReminder": "告知售票员1个没有假面的镇民角色、1个外来者角色和1个爪牙角色，其中有2个在场。",
+        "otherNightReminder": "",
+        "name": "售票员",
+        "otherNight": 0,
+        "setup": 0,
+        "reminders": [],
+        "remindersGlobal": [],
+        "team": "townsfolk",
+        "firstNight": 20
+    },
+    {
+        "ability": "每个白天剧幕宣布之前，你可以庄严宣誓你不干好事，并公开选择一个角色。当晚，你得知一条有关于该角色的信息。",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/upload/1689521626_197011_2522.png",
+        "edition": "custom",
+        "flavor": "",
+        "id": "20724_8096",
+        "firstNightReminder": "",
+        "otherNightReminder": "韦斯莱兄弟得知一条消息",
+        "name": "韦斯莱兄弟",
+        "otherNight": 15,
+        "setup": 0,
+        "reminders": [],
+        "remindersGlobal": [],
+        "team": "townsfolk",
+        "firstNight": 0
+    },
+    {
+        "ability": "①当你在夜间死亡时，你可以写一段话，并委托说书人私下交给你指定的玩家。②整局游戏限一次，你可以公开猜测所有邪恶玩家及其当前角色，如果你猜测正确，善良阵营获胜。",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/upload/1689521639_197011_9781.png",
+        "edition": "custom",
+        "flavor": "",
+        "id": "20724_8097",
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "name": "剧作家",
+        "otherNight": 0,
+        "setup": 0,
+        "reminders": [],
+        "remindersGlobal": [],
+        "team": "townsfolk",
+        "firstNight": 0
+    },
+    {
+        "ability": "每晚*，选择一名你没有选择过的存活非旅玩家：直到下个黄昏，你具有他的能力（不包括“假面”和剧幕）；如果他是邪恶的，你中毒直到下个黄昏。",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/upload/1689521662_197011_7850.png",
+        "edition": "custom",
+        "flavor": "",
+        "id": "20724_8098",
+        "firstNightReminder": "",
+        "otherNightReminder": "B角指向一名玩家，并且具有他的能力，或者中毒，直到下个黄昏。(可以复制首夜型能力并获得信息) ",
+        "name": "B角",
+        "otherNight": 11,
+        "setup": 0,
+        "reminders": [
+            "中毒"
+        ],
+        "remindersGlobal": [],
+        "team": "townsfolk",
+        "firstNight": 0
+    },
+    {
+        "ability": "你以为你是一个外来者角色，但你不是。当你对“一件与你无关的事”疯狂时，今天说书人会宣布“小王子找到了他的玫瑰”；如果这件事是错误的则改为宣布“小王子失去了他的狐狸”，并且你变为你认为的那个外来者角色。",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/upload/1689521684_197011_3923.png",
+        "edition": "custom",
+        "flavor": "",
+        "id": "20724_8099",
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "name": "小王子",
+        "otherNight": 0,
+        "setup": 1,
+        "reminders": [],
+        "remindersGlobal": [
+            "小王子"
+        ],
+        "team": "townsfolk",
+        "firstNight": 0
+    },
+    {
+        "ability": "如果镇民在夜间选择你，他当晚获取错误信息。当你死亡后，当晚恶魔可以指定一个剧幕，必定在下一个白天被宣布。",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/upload/1689521703_197011_4694.png",
+        "edition": "custom",
+        "flavor": "",
+        "id": "20724_8100",
+        "firstNightReminder": "",
+        "otherNightReminder": "如果堂吉诃德死于白天或者今夜，恶魔可以指定任意一个剧幕，必定在下一个白天被宣布。",
+        "name": "堂吉诃德",
+        "otherNight": 16,
+        "setup": 0,
+        "reminders": [
+            "虚假剧幕"
+        ],
+        "remindersGlobal": [],
+        "team": "outsider",
+        "firstNight": 0
+    },
+    {
+        "ability": "你不会被恶魔杀害。当恶魔选择你后，恶魔得知你的角色，且统计胜利条件时你被视为死亡。若你被处决，一名邪恶玩家今晚和下个白天可能被视为善良阵营及角色。",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/upload/1689521718_197011_3650.png",
+        "edition": "custom",
+        "flavor": "",
+        "id": "20724_8101",
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "name": "飞翔的荷兰人",
+        "otherNight": 0,
+        "setup": 0,
+        "reminders": [
+            "灵魂形态",
+            "魂之迷雾"
+        ],
+        "remindersGlobal": [],
+        "team": "outsider",
+        "firstNight": 0
+    },
+    {
+        "ability": "恶魔知道你在游戏中，并且每个白天有一次机会猜测谁是弄臣，直到触发你的能力。如果猜测正确，一名善良玩家失去能力，如果猜错2次，一名爪牙失去能力。即使你死了。",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/upload/1689521736_197011_5079.png",
+        "edition": "custom",
+        "flavor": "",
+        "id": "20724_8102",
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "name": "弄臣",
+        "otherNight": 0,
+        "setup": 0,
+        "reminders": [
+            "失去能力"
+        ],
+        "remindersGlobal": [],
+        "team": "outsider",
+        "firstNight": 0
+    },
+    {
+        "ability": "你以为你是一名具有假面的镇民角色，但其实你不是。当你成功触发该角色拥有的剧幕时，说书人会宣布“愚者，行为古怪”。",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/upload/1689521757_197011_2121.png",
+        "edition": "custom",
+        "flavor": "",
+        "id": "20724_8103",
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "name": "愚者",
+        "otherNight": 0,
+        "setup": 1,
+        "reminders": [],
+        "remindersGlobal": [
+            "愚者"
+        ],
+        "team": "outsider",
+        "firstNight": 0
+    },
+    {
+        "ability": "整局游戏限2次：夜晚，选择一个剧幕，它在下个白天必定会被宣布。仅能选择善良阵营剧幕一次。",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/upload/1689521770_197011_5179.png",
+        "edition": "custom",
+        "flavor": "",
+        "id": "20724_8104",
+        "firstNightReminder": "镜中人选择一个剧幕或不使用能力。",
+        "otherNightReminder": "镜中人选择一个剧幕或不使用能力。",
+        "name": "镜中人",
+        "otherNight": 5,
+        "setup": 0,
+        "reminders": [
+            "虚假剧幕A",
+            "虚假剧幕B"
+        ],
+        "remindersGlobal": [],
+        "team": "minion",
+        "firstNight": 14
+    },
+    {
+        "ability": "在你的首个夜晚，选择一名玩家：①初始邪恶玩家：他可能被视为善良阵营及角色，下一个白天，说书人必定会宣布“恶意已披上正义的外衣” 。恶魔死亡时，他变成那个恶魔。②善良玩家：他可能被视为邪恶的恶魔，他的能力必定获取错误信息。",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/upload/1689521789_197011_3536.png",
+        "edition": "custom",
+        "flavor": "",
+        "id": "20724_8105",
+        "firstNightReminder": "倒吊人选择一名玩家。在那名玩家的身份旁放置倒吊标记。",
+        "otherNightReminder": "",
+        "name": "倒吊人",
+        "otherNight": 0,
+        "setup": 0,
+        "reminders": [],
+        "remindersGlobal": [
+            "倒吊"
+        ],
+        "team": "minion",
+        "firstNight": 13
+    },
+    {
+        "ability": "①在你的首个夜晚，得知三个具有“假面”的在场角色。②夜晚*，你可以在你得知的角色中猜测其中一个角色对应的玩家并得知结果。如果你猜测正确，该玩家成为一个邪恶的教皇，然后你和他失去所有能力，你死亡。",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/upload/1689521802_197011_7987.png",
+        "edition": "custom",
+        "flavor": "",
+        "id": "20724_8106",
+        "firstNightReminder": "告知教皇三个在场的具有假面的角色。",
+        "otherNightReminder": "教皇不使用技能，或指向一名玩家并猜测角色。如果猜测正确，那名玩家成为没有技能的教皇，老教皇死亡",
+        "name": "教皇",
+        "otherNight": 3,
+        "setup": 0,
+        "reminders": [
+            "死亡"
+        ],
+        "remindersGlobal": [
+            "新皇加冕"
+        ],
+        "team": "minion",
+        "firstNight": 11
+    },
+    {
+        "ability": "①整局限一次，夜晚，选择2名其他玩家：他们得知自己被恋人选中，如果其中只有1名善良玩家，他中毒。如果其中一名玩家被处决，另一名会在当晚死亡，即使你死亡。②游戏的第四天开始，如果那些玩家均存活，你可以代替其他玩家被处决。",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/upload/1689521815_197011_1972.png",
+        "edition": "custom",
+        "flavor": "",
+        "id": "20724_8107",
+        "firstNightReminder": "恋人指向2名玩家，为该玩家添加相恋标记；或者摇头表示放弃。分别唤醒那2名玩家并展示“恋人”能力对你生效。",
+        "otherNightReminder": "恋人指向2名玩家，为该玩家添加相恋标记；或者摇头表示放弃。分别唤醒那2名玩家并展示“恋人”能力对你生效。",
+        "name": "恋人",
+        "otherNight": 4,
+        "setup": 0,
+        "reminders": [],
+        "remindersGlobal": [
+            "相恋",
+            "中毒",
+            "死亡"
+        ],
+        "team": "minion",
+        "firstNight": 12
+    },
+    {
+        "ability": "每个夜晚*：标记一名玩家并杀害一名玩家；或选择2名玩家将他们标记；或移除标记并杀害所有被标记的玩家；或使全体镇民中毒直到下个黄昏。（至多存在4枚标记）",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/upload/1689521832_197011_1053.png",
+        "edition": "custom",
+        "flavor": "",
+        "id": "20724_8108",
+        "firstNightReminder": "",
+        "otherNightReminder": "咒魂标记1名玩家并杀害1名玩家；或选择2名玩家将他们标记。或咒魂杀害所有被标记的玩家并移除所有标记，或者使全体镇民中毒到下个黄昏。",
+        "name": "咒魂",
+        "otherNight": 8,
+        "setup": 0,
+        "reminders": [
+            "诅咒之印",
+            "全毒",
+            "死亡"
+        ],
+        "remindersGlobal": [],
+        "team": "demon",
+        "firstNight": 0
+    },
+    {
+        "ability": "①每个夜晚*，选择一名玩家，他死亡。②整局限一次：爪牙被处决的当晚你可以额外杀害一名玩家。③整局限一次：选择并获得一个不在场的爪牙的能力。下个白天，说书人会宣布“女帝正凌驾寰宇之上”。",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/upload/1689521844_197011_2269.png",
+        "edition": "custom",
+        "flavor": "",
+        "id": "20724_8109",
+        "firstNightReminder": "女帝选择“新生”或放弃。",
+        "otherNightReminder": "女帝选择“新生”或放弃。女帝指向一名玩家，那名玩家死亡。如果是爪牙被处决的当晚女帝可以额外选择一名玩家。",
+        "name": "女帝",
+        "otherNight": 6,
+        "setup": 0,
+        "reminders": [
+            "新生：倒吊人",
+            "新生：镜中人",
+            "新生：教皇",
+            "新生：恋人",
+            "复仇",
+            "死亡"
+        ],
+        "remindersGlobal": [],
+        "team": "demon",
+        "firstNight": 15
+    },
+    {
+        "ability": "①每个夜晚*，标记一名玩家。当你标记的玩家座位号通过加/减法可以组合成13时，那些玩家失去标记并被你杀害。②整局限一次，拜访说书人开启噩梦，说书人当天会宣布“死神带来了噩梦”。该剧幕被公布的当晚你额外行动一次。③整局限一次，你可以移动一枚标记。④第一个死亡的非教皇爪牙重获能力。（+1外来者）",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/upload/1689521855_197011_3645.png",
+        "edition": "custom",
+        "flavor": "",
+        "id": "20724_8110",
+        "firstNightReminder": "",
+        "otherNightReminder": "死神13标记1~2名玩家，并且移动1个标记或放弃。",
+        "name": "死神13",
+        "otherNight": 7,
+        "setup": 1,
+        "reminders": [
+            "死神之印",
+            "噩梦开启",
+            "死亡",
+            "重获能力"
+        ],
+        "remindersGlobal": [],
+        "team": "demon",
+        "firstNight": 0
+    },
+    {
+        "ability": "①每个夜晚，标记一名玩家，被标记的玩家获取错误信息。②游戏的第五个白天，说书人会宣布“第五幕，魅影杀死了所有人”，然后邪恶阵营获胜（13+人局改为第六天）。③若你被处决，你的阵营落败。[-1外来者]",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/upload/1689521874_197011_7111.png",
+        "edition": "custom",
+        "flavor": "",
+        "id": "20724_8111",
+        "firstNightReminder": "本影标记1名玩家。",
+        "otherNightReminder": "本影标记1名玩家。",
+        "name": "本影",
+        "otherNight": 9,
+        "setup": 1,
+        "reminders": [
+            "恐惧之印"
+        ],
+        "remindersGlobal": [],
+        "team": "demon",
+        "firstNight": 16
+    },
+    {
+        "ability": "在夜晚，你可以给大家唱首歌。如果你唱歌了，下一个白天你不能被流放，说书人可能会告诉你一条对你阵营有益的建议。",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/upload/1689521889_197011_3159.png",
+        "edition": "custom",
+        "flavor": "",
+        "id": "20724_8112",
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "name": "首席歌手",
+        "otherNight": 0,
+        "setup": 0,
+        "reminders": [],
+        "remindersGlobal": [],
+        "team": "traveler",
+        "firstNight": 0
+    },
+    {
+        "ability": "如果一名玩家被投票处决，你可以发动能力，将处决改为你被流放，然后你得知该玩家的角色，说书人立即宣布特殊剧幕“善良的卡西莫多救下了爱斯梅拉达”。",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/upload/1689521901_197011_5541.png",
+        "edition": "custom",
+        "flavor": "",
+        "id": "20724_8113",
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "name": "“钟楼怪人”",
+        "otherNight": 0,
+        "setup": 0,
+        "reminders": [],
+        "remindersGlobal": [],
+        "team": "traveler",
+        "firstNight": 0
+    },
+    {
+        "ability": "整局限一次：白天，你可以公开选择一名玩家。如果你们阵营相同，你得知一个在场的角色。如果你们阵营不同，你被流放，说书人立即宣布特殊剧幕“奄奄一息的雷欧提斯当众揭穿了阴谋”。",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/upload/1689521921_197011_3429.png",
+        "edition": "custom",
+        "flavor": "",
+        "id": "20724_8114",
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "name": "雷欧提斯",
+        "otherNight": 0,
+        "setup": 0,
+        "reminders": [],
+        "remindersGlobal": [],
+        "team": "traveler",
+        "firstNight": 0
+    },
+    {
+        "ability": "整局游戏限一次：你可以私聊说书人猜测一名玩家的角色，如果你猜测正确，他死亡，否则你被流放。游戏的第四个白天你失去能力。",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/upload/1689521933_197011_8682.png",
+        "edition": "custom",
+        "flavor": "",
+        "id": "20724_8115",
+        "firstNightReminder": "",
+        "otherNightReminder": "唤醒赞助人，如果赞助人选择在夜间猜测目标的角色：正确则目标死亡，错误则赞助人被放逐（黎明公布）",
+        "name": "赞助人",
+        "otherNight": 10,
+        "setup": 0,
+        "reminders": [],
+        "remindersGlobal": [],
+        "team": "traveler",
+        "firstNight": 0
+    },
+    {
+        "ability": "剧幕宣布时，你可以公开宣称一个镇民剧幕为虚假，然后将自己流放。该剧幕视为未公布，且本局游戏不能再次公布。说书人会在当天重新宣布剧幕。",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/upload/1689521950_197011_2626.png",
+        "edition": "custom",
+        "flavor": "",
+        "id": "20724_8116",
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "name": "后排观众",
+        "otherNight": 0,
+        "setup": 0,
+        "reminders": [],
+        "remindersGlobal": [
+            "1眼DJ鉴定为假"
+        ],
+        "team": "traveler",
+        "firstNight": 0
+    }
+]
